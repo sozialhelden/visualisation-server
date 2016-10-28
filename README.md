@@ -39,6 +39,16 @@ at its default port. The postgres port should NOT be PUBLIC accessible.
 By default the visualisation server listens at port `8899`. 
 The listener-port may be set by the `-l` option,
 
+Console logs of a successful startup of the server
+$ node owh-server.js
+server name = "owh-server"
+server port = 8899
+postgres://************************@localhost:5432/**********
+database host = localhost
+database port = 5432
+database connection OK
+```
+
 ## http configuration
 The visualisation-tool accesses the visualisation-server (owh-server) at http port 80
 with the URL  

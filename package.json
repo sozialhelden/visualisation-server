@@ -1,0 +1,20 @@
+{
+  "name": "visualisation-server",
+  "version": "1.0.0",
+  "description": "update owh by processing planet osm replication/minute/**/*.osc.gz changeset files",
+  "author": "cap4access, MyAccessible",
+  "contributors": [
+    {
+      "name": "Aadesh Misra"
+    },
+    {
+      "name": "Karl-Heinz Sylla",
+      "email": "karl-heinz.sylla@iais.fraunhofer.de"
+    }
+  ],
+  "dependencies": {
+    "pg" : "*",
+    "commander": "^2.9.0",
+    "restify": "2.8.4"
+  }
+}
