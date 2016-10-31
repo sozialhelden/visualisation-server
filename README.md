@@ -40,6 +40,7 @@ By default the visualisation server listens at port `8899`.
 The listener-port may be set by the `-l` option,
 
 Console logs of a successful startup of the server
+```
 $ node owh-server.js
 server name = "owh-server"
 server port = 8899
